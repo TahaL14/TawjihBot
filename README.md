@@ -1,8 +1,8 @@
-# TawjihBot - Chatbot d'Orientation Scolaire
+## TawjihBot - Chatbot d'Orientation Scolaire
 
 TawjihBot est un chatbot intelligent développé en Flask qui aide les étudiants marocains dans leur orientation scolaire. Le bot peut guider les étudiants du primaire au supérieur en analysant leurs préférences et en leur proposant des conseils personnalisés.
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 - **Orientation Primaire** : Aide à choisir entre littérature, scientifique et technologique
 - **Orientation Supérieure** : Conseils pour médecine, ingénierie et autres filières
@@ -10,19 +10,19 @@ TawjihBot est un chatbot intelligent développé en Flask qui aide les étudiant
 - **Intelligence Artificielle** : Utilise l'algorithme de similarité pour comprendre les questions
 - **Réponses Personnalisées** : Recommandations basées sur les préférences de l'étudiant
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 - **Backend** : Python 3.x, Flask
 - **Frontend** : HTML5, CSS3, JavaScript
 - **IA** : difflib.SequenceMatcher pour la similarité de texte
 - **Base de données** : JSON pour stocker les questions et réponses
 
-## 📋 Prérequis
+## Prérequis
 
 - Python 3.6 ou supérieur
 - pip (gestionnaire de paquets Python)
 
-## 🔧 Installation
+## Installation
 
 1. **Cloner le repository**
    ```bash
@@ -46,7 +46,7 @@ TawjihBot est un chatbot intelligent développé en Flask qui aide les étudiant
    pip install -r requirements.txt
    ```
 
-## 🚀 Utilisation
+## Utilisation
 
 1. **Lancer l'application**
    ```bash
@@ -57,7 +57,7 @@ TawjihBot est un chatbot intelligent développé en Flask qui aide les étudiant
    - Accédez à `http://localhost:5000`
    - Commencez à chatter avec TawjihBot !
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 TawjihBot/
@@ -86,31 +86,3 @@ TawjihBot/
 - "Je ne sais pas quelle filière choisir"
 - "Je veux faire médecine après le bac"
 - "Quelles matières dois-je maîtriser pour le concours médical ?"
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! Pour contribuer :
-
-1. Fork le projet
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/nouvelle-fonctionnalite`)
-3. Committez vos changements (`git commit -am 'Ajout d'une nouvelle fonctionnalité'`)
-4. Poussez vers la branche (`git push origin feature/nouvelle-fonctionnalite`)
-5. Ouvrez une Pull Request
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
-
-## 👨‍💻 Auteur
-
-**Taha**
-- GitHub: [@TahaL14](https://github.com/TahaL14)
-
-## 🙏 Remerciements
-
-- Merci à la communauté Flask pour le framework
-- Inspiration tirée des besoins réels des étudiants marocains
-
----
-
-⭐ N'hésitez pas à donner une étoile si ce projet vous a aidé !
