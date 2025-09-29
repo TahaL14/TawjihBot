@@ -73,14 +73,14 @@ TawjihBot/
     └── index.html      # Template HTML principal
 ```
 
-## 🎯 Comment ça marche
+## Comment ça marche
 
 1. L'utilisateur pose une question via l'interface web
 2. L'algorithme calcule la similarité avec les patterns connus
 3. Si la similarité dépasse 60%, une réponse appropriée est retournée
 4. Le bot guide l'étudiant à travers un processus d'orientation structuré
 
-## 📝 Exemples de Questions
+## Exemples de Questions
 
 - "Bonjour, j'ai besoin d'aide pour mon orientation"
 - "Je ne sais pas quelle filière choisir"
