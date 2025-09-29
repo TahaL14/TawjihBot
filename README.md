@@ -26,7 +26,7 @@ TawjihBot est un chatbot intelligent développé en Flask qui aide les étudiant
 
 1. **Cloner le repository**
    ```bash
-   git clone https://github.com/VOTRE_USERNAME/TawjihBot.git
+   git clone https://github.com/TahaL14/TawjihBot.git
    cd TawjihBot
    ```
 
@@ -103,8 +103,8 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👨‍💻 Auteur
 
-**Votre Nom**
-- GitHub: [@VOTRE_USERNAME](https://github.com/VOTRE_USERNAME)
+**Taha**
+- GitHub: [@TahaL14](https://github.com/TahaL14)
 
 ## 🙏 Remerciements
 
