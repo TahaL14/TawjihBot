@@ -1,0 +1,339 @@
+{
+    "questions": [
+        {
+            "tag": "Salutation",
+            "patterns": [
+                "Salut", "Comment vas-tu", "Y a-t-il quelqu'un ?", "Bonjour",
+                "Bonjour, comment ça va ?", "Hey", "Coucou", "Bonjour, je voudrais parler",
+                "Bonjour, je cherche des conseils", "Bonjour, j'ai besoin d'aide",
+                "Bonjour, je voudrais des informations", "Bonjour, je cherche de l'aide pour mon orientation"
+            ],
+            "responses": [
+                "Salut ! Je peux t'aider pour ton orientation",
+                "Bonjour ! Besoin d'aide pour ton orientation ?",
+                "Hey ! Je suis là pour t'aider à choisir tes études"
+            ]
+        },
+        {
+            "tag": "Choix",
+            "patterns": [
+                "Je veux des conseils d'orientation",
+                "J'ai besoin d'aide pour mon orientation",
+                "Je cherche des conseils pour m'orienter",
+                "Je ne sais pas quoi faire après le bac",
+                "Je suis perdu dans mon orientation",
+                "Je voudrais des conseils pour choisir ma filière",
+                "Je ne sais pas quelle filière choisir",
+                "J'ai besoin d'aide pour choisir mes études",
+                "Je cherche des conseils pour mes études",
+                "Je voudrais des informations sur les différentes filières"
+            ],
+            "responses": [
+                "Tu es au primaire ou au supérieur ?",
+                "Primaire ou supérieur ?",
+                "Dis-moi d'abord si t'es au primaire ou au supérieur"
+            ]
+        },
+        {
+            "tag": "Primaire",
+            "patterns": [
+                "Je veux des conseils d'orientation pour l'enseignement primaire",
+                "enseignement primaire",
+                "primaire",
+                "Je suis au primaire",
+                "Je suis au collège",
+                "Je suis au lycée",
+                "Je suis au secondaire",
+                "Je suis au collégial",
+                "Je suis au qualifiant",
+                "Je suis au secondaire qualifiant"
+            ],
+            "responses": [
+                "Tu es en quelle classe ?",
+                "Dis-moi ta classe",
+                "Quelle est ta classe ?"
+            ]
+        },
+        {
+            "tag": "3eme annee",
+            "patterns": [
+                "ma classe cette annee est exactement la 3eme annee",
+                "3eme annee",
+                "Je suis en 3ème année",
+                "Je suis en 3ème année collégiale",
+                "Je suis en 3ème année du collège",
+                "Je suis en 3ème année du secondaire collégial",
+                "Je suis en 3ème année du cycle collégial",
+                "Je suis en 3ème année du cycle secondaire collégial",
+                "Je suis en 3ème année du cycle secondaire",
+                "Je suis en 3ème année du cycle collégial"
+            ],
+            "responses": [
+                "Choisis 3 matières que tu préfères : religion, arabe, français, anglais, géo, maths, SVT, physique, sciences ingénieur",
+                "Quelles sont tes 3 matières préférées ?",
+                "Dis-moi tes 3 matières préférées"
+            ]
+        },
+        {
+            "tag": "litterature",
+            "patterns": [
+                "Mes 3 sujets favoris selon mes priorites sont Francais, Arabe, geo-histoire",
+                "Francais, Arabe, geo-histoire",
+                "Je préfère le français, l'arabe et la géo-histoire",
+                "Mes matières préférées sont le français, l'arabe et la géo-histoire",
+                "J'aime le français, l'arabe et la géo-histoire",
+                "Je suis fort en français, arabe et géo-histoire",
+                "Je préfère les matières littéraires",
+                "Je suis plus à l'aise en français, arabe et géo-histoire",
+                "Je me débrouille bien en français, arabe et géo-histoire",
+                "Je suis meilleur en français, arabe et géo-histoire"
+            ],
+            "responses": [
+                "Tronc commun littérature pour toi !",
+                "Va en littérature",
+                "Littérature c'est parfait pour toi"
+            ]
+        },
+        {
+            "tag": "scientifique",
+            "patterns": [
+                "Mes sujets apres le Choix de 3 selon mes priorites sont les mathematiques, les sciences de la vie et de la terre, la physique et la chimie",
+                "les mathematiques, les sciences de la vie et de la terre, la physique et la chimie",
+                "Je préfère les maths, SVT et physique-chimie",
+                "Mes matières préférées sont les maths, SVT et physique-chimie",
+                "J'aime les maths, SVT et physique-chimie",
+                "Je suis fort en maths, SVT et physique-chimie",
+                "Je préfère les matières scientifiques",
+                "Je suis plus à l'aise en maths, SVT et physique-chimie",
+                "Je me débrouille bien en maths, SVT et physique-chimie",
+                "Je suis meilleur en maths, SVT et physique-chimie"
+            ],
+            "responses": [
+                "Tronc commun scientifique pour toi !",
+                "Va en scientifique",
+                "Scientifique c'est parfait pour toi"
+            ]
+        },
+        {
+            "tag": "Technologique",
+            "patterns": [
+                "Mes sujets apres le Choix de 3 selon mes priorites sont les mathematiques, la physique et la chimie, les sciences de l'ingenieur",
+                "les mathematiques, la physique et la chimie, les sciences de l'ingenieur",
+                "Je préfère les maths, physique-chimie et sciences de l'ingénieur",
+                "Mes matières préférées sont les maths, physique-chimie et sciences de l'ingénieur",
+                "J'aime les maths, physique-chimie et sciences de l'ingénieur",
+                "Je suis fort en maths, physique-chimie et sciences de l'ingénieur",
+                "Je préfère les matières technologiques",
+                "Je suis plus à l'aise en maths, physique-chimie et sciences de l'ingénieur",
+                "Je me débrouille bien en maths, physique-chimie et sciences de l'ingénieur",
+                "Je suis meilleur en maths, physique-chimie et sciences de l'ingénieur"
+            ],
+            "responses": [
+                "Tronc commun technologique pour toi !",
+                "Va en technologique",
+                "Technologique c'est parfait pour toi"
+            ]
+        },
+        {
+            "tag": "superieur",
+            "patterns": [
+                "Je suis confus, je veux des conseils pour l'enseignement superieur",
+                "Je veux des idees ou des conseils pour l'enseignement superieur",
+                "des conseils pour l'enseignement superieur",
+                "Je voudrais des conseils pour l'enseignement supérieur",
+                "Je cherche des conseils pour l'enseignement supérieur",
+                "J'ai besoin d'aide pour l'enseignement supérieur",
+                "Je ne sais pas quoi faire après le bac",
+                "Je suis perdu dans mon orientation post-bac",
+                "Je voudrais des conseils pour mes études supérieures",
+                "Je cherche des informations sur l'enseignement supérieur"
+            ],
+            "responses": [
+                "Tu préfères médecine, ingénierie ou autre ?",
+                "Médecine, ingénierie ou autre ?",
+                "Dis-moi ce qui t'intéresse : médecine, ingénierie ou autre ?"
+            ]
+        },
+        {
+            "tag": "Medecine",
+            "patterns": [
+                "Je m'interesse au domaine de la medecine et j'aime tout ce qui touche aux sciences de la sante",
+                "Je suis obsede par le domaine de la sante et je veux la medecine",
+                "domaine de la sante",
+                "Je voudrais faire médecine",
+                "Je veux devenir médecin",
+                "Je suis intéressé par la médecine",
+                "Je voudrais étudier la médecine",
+                "Je veux faire des études de médecine",
+                "Je suis passionné par la médecine",
+                "Je voudrais travailler dans le domaine de la santé"
+            ],
+            "responses": [
+                "Tu auras le choix entre médecine, dentaire et pharmacie selon ton score",
+                "Médecine, dentaire ou pharmacie selon ton score",
+                "Ton score décidera entre médecine, dentaire et pharmacie"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "je veux l'option medecine quels sont les sujets que je dois maitriser avant le passage du concours medical",
+                "quels sont les sujets sur lesquels je dois me concentrer pour pouvoir choisir l'option medecine",
+                "sujets et options de medecine",
+                "Quelles matières dois-je maîtriser pour le concours médical ?",
+                "Quelles sont les matières importantes pour le concours de médecine ?",
+                "Sur quelles matières dois-je me concentrer pour le concours médical ?",
+                "Quelles sont les matières essentielles pour réussir le concours de médecine ?",
+                "Je voudrais savoir quelles matières sont importantes pour le concours médical",
+                "Quelles sont les matières à réviser pour le concours de médecine ?",
+                "Sur quoi dois-je me concentrer pour réussir le concours médical ?"
+            ],
+            "responses": [
+                "Concentre-toi sur : SVT, chimie, physique et maths",
+                "Révision : SVT, chimie, physique, maths",
+                "Important : SVT, chimie, physique, maths"
+            ]
+        },
+        {
+            "tag": "lieu",
+            "patterns": [
+                "comment puis-je savoir dans quelle ville je vais passer l'examen",
+                "Comment puis-je savoir ou passer le test",
+                "ville ou je vais passer le test",
+                "Où vais-je passer le concours ?",
+                "Dans quelle ville aura lieu l'examen ?",
+                "Comment connaître le lieu du concours ?",
+                "Où se déroulera le concours ?",
+                "Comment savoir le lieu de l'examen ?",
+                "Dans quelle ville se passe le concours ?",
+                "Où aura lieu le test ?"
+            ],
+            "responses": [
+                "Tu le sauras sur ta convocation",
+                "Regarde ta convocation",
+                "C'est marqué sur ta convocation"
+            ]
+        },
+        {
+            "tag": "ville",
+            "patterns": [
+                "comment je saurai la ville où j'étudierai si je réussis mon examen",
+                "Si je réussis le test, comment choisir le collège dans lequel je poursuis mes études ?",
+                "choisir l'université",
+                "Où vais-je étudier si je réussis le concours ?",
+                "Dans quelle ville vais-je faire mes études ?",
+                "Comment savoir où je vais étudier ?",
+                "Où serai-je affecté si je réussis ?",
+                "Dans quelle ville vais-je être affecté ?",
+                "Comment connaître ma ville d'études ?",
+                "Où vais-je poursuivre mes études ?"
+            ],
+            "responses": [
+                "Tu étudieras dans la ville où t'as eu ton bac",
+                "Même ville que ton bac",
+                "La ville où t'as eu ton bac"
+            ]
+        },
+        {
+            "tag": "Directement",
+            "patterns": [
+                "Je veux integrer une ecole d'ingenieurie directement apres le baccalaureat",
+                "directement apres le baccalaureat",
+                "Je voudrais entrer en école d'ingénieurs après le bac",
+                "Je veux faire une école d'ingénieurs directement après le bac",
+                "Je souhaite intégrer une école d'ingénieurs après le bac",
+                "Je voudrais devenir ingénieur directement après le bac",
+                "Je veux faire des études d'ingénieur après le bac",
+                "Je souhaite entrer en école d'ingénieurs après le bac",
+                "Je voudrais faire une école d'ingénieurs après le bac",
+                "Je veux devenir ingénieur après le bac"
+            ],
+            "responses": [
+                "Tu aimes la programmation ?",
+                "T'aimes coder ?",
+                "Tu veux faire de la programmation ?"
+            ]
+        },
+        {
+            "tag": "Oui:programmation et codage",
+            "patterns": [
+                "Oui",
+                "Oui , Je suis interesse par la programmation et le codage",
+                "Je suis intéressé par la programmation",
+                "J'aime la programmation",
+                "Je suis passionné par le codage",
+                "J'adore la programmation",
+                "Je veux faire de la programmation",
+                "Je suis intéressé par le développement",
+                "J'aime le développement informatique",
+                "Je veux devenir développeur"
+            ],
+            "responses": [
+                "Va en informatique !",
+                "Filière info pour toi",
+                "Informatique c'est parfait"
+            ]
+        },
+        {
+            "tag": "Non:programmation et codage",
+            "patterns": [
+                "Non",
+                "Non, Je ne suis pas interesse par la programmation et le codage",
+                "Je ne suis pas intéressé par la programmation",
+                "Je n'aime pas la programmation",
+                "Je ne suis pas passionné par le codage",
+                "Je n'aime pas le développement",
+                "Je ne veux pas faire de la programmation",
+                "Je ne suis pas intéressé par l'informatique",
+                "Je préfère autre chose que la programmation",
+                "Je ne veux pas devenir développeur"
+            ],
+            "responses": [
+                "Choisis : mouvement, analyse, calcul, logique, sol, matière",
+                "Tu préfères quoi : mouvement, analyse, calcul, logique, sol, matière ?",
+                "Dis-moi ce qui t'intéresse : mouvement, analyse, calcul, logique, sol, matière"
+            ]
+        },
+        {
+            "tag": "merci",
+            "patterns": [
+                "merci",
+                "C'est utile",
+                "Merci beaucoup !",
+                "Merci pour votre aide",
+                "Je vous remercie",
+                "Merci pour ces informations",
+                "Merci pour ces conseils",
+                "Merci pour votre temps",
+                "Merci pour votre assistance",
+                "Merci pour votre soutien"
+            ],
+            "responses": [
+                "De rien !",
+                "Avec plaisir !",
+                "T'as d'autres questions ?"
+            ]
+        },
+        {
+            "tag": "au revoir",
+            "patterns": [
+                "A plus tard",
+                "Au revoir",
+                "Au revoir, merci",
+                "A bientôt",
+                "Je m'en vais",
+                "Je dois y aller",
+                "Je dois partir",
+                "Je vais partir",
+                "Je vais y aller",
+                "Je vais me déconnecter"
+            ],
+            "responses": [
+                "A+ !",
+                "Bye !",
+                "Reviens quand tu veux !"
+            ]
+        }
+    ]
+}
+   
